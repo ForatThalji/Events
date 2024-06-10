@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:#e6e6e6;
+    font-family: "Roboto Mono", monospace;
+}
+
+.logo{
+    margin-left: -90px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 35px;
+    color: rgb(212, 94, 114);
+}
+.nav a:hover{
+    color: #bc0820;
+   
+}
+#demo{
+color: rgb(4, 66, 66);
+}
+.logo:hover{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(212, 94, 114),
+        0 0 82px rgb(158, 24, 146),
+        0 0 92px rgb(158, 24, 146),
+        0 0 102px rgb(158, 24, 146),
+        0 0 151px rgb(158, 24, 146),
+}
+
+.row .col-8{
+    color: rgb(212, 94, 114);
+    font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+._p{
+ 
+    color: rgb(212, 94, 114);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+  
+}
+
+.col-8{
+
+font-size: 20px;
+font-weight: 700;
+color: rgb(168, 153, 156);
+
+
+}
+.col-2{
+    margin-left:700px ;
+    margin-top: -130px;
+}         
+.container{
+width: 100%;
+padding: 35px 10%; 
+padding-right: calc(10% - 30px);
+}
+    
+.col-8{
+    margin-top: 120px;
+}
+.donuts{
+    margin-top: 100px;
+}
+/* -------------------- Buttons ---------------- */
+.btn-H{
+    width: 120px;
+    height:50px;
+    margin:5px;
+    padding: 5px;
+    border: 2px solid rgb(212, 94, 114) ;
+    background-color: rgb(212, 94, 114);
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(176, 130, 130);
+}
+.btn-H a{
+text-decoration: none;
+color: rgb(181, 144, 144);
+}
+.btn-box{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+}
+.btn-box a button{
+    background-color:rgb(203, 117, 131);
+    border-radius: 10px;
+    margin: 7px;
+    padding: 6px;
+    
+}
+.btn-box a button:hover{
+    color: #927e7e;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(212, 94, 114),
+        0 0 82px rgb(158, 24, 146),
+        0 0 92px rgb(158, 24, 146),
+        0 0 102px rgb(158, 24, 146),
+        0 0 151px rgb(158, 24, 146);
+    border:2px solid #fff;
+      
+}
+
+/* -------------------- Non ---------------- */
+.donuts{
+    margin-top: -70px;
+    margin-left: -150px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#submittedData{
+    color: black;
+}
+
+
+button {
+    background-color: #d465b7;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #af749e;
+}
